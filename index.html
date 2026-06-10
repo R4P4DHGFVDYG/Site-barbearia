@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Barbearia Leo Barbeiro em Quarteira, Loulé. Cortes de cabelo, barba e cuidados masculinos com atendimento profissional."
+    />
+    <title>Leo Barbeiro | Barbearia em Quarteira</title>
+    <link rel="preload" href="assets/images/hero-poster.jpg" as="image" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Leo Barbeiro - início">
+        <span class="brand-mark">LB</span>
+        <span>
+          <strong>Leo Barbeiro</strong>
+          <small>Quarteira</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="header-cta inactive-cta" type="button" aria-disabled="true">
+        <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true" />
+        WhatsApp
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/images/hero-poster.jpg"
+          aria-hidden="true"
+        >
+          <source src="assets/video/leo-apresentacao.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="section-inner hero-content">
+          <p class="eyebrow">Barbearia em Quarteira, Loulé</p>
+          <h1>Leo Barbeiro</h1>
+          <p class="hero-lead">
+            Cortes de cabelo, barba e cuidados masculinos com atendimento profissional no Algarve.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary inactive-cta" type="button" aria-disabled="true">
+              <img src="assets/icons/whatsapp-dark.svg" alt="" aria-hidden="true" />
+              Agendar pelo WhatsApp
+            </button>
+            <a class="btn btn-secondary" href="#servicos">
+              Ver serviços
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Resumo da barbearia">
+        <div class="section-inner intro-grid">
+          <div>
+            <strong>Quarteira</strong>
+            <span>Avenida Francisco Sá Carneiro</span>
+          </div>
+          <div>
+            <strong>+351 925 622 069</strong>
+            <span>Contato direto via WhatsApp</span>
+          </div>
+          <div>
+            <strong>Cabelo e barba</strong>
+            <span>Serviços masculinos essenciais</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about" id="sobre">
+        <div class="section-inner split-layout">
+          <div class="section-copy">
+            <p class="eyebrow">Sobre a barbearia</p>
+            <h2>Atendimento direto, corte bem feito e ambiente organizado.</h2>
+            <p>
+              A Barbearia Leo Barbeiro atende em Quarteira, no Algarve, com foco em cortes masculinos,
+              barba e serviços de cuidado pessoal. A identidade brasileira do Leo aproxima o atendimento
+              de quem procura conversa clara, técnica e atenção ao detalhe.
+            </p>
+          </div>
+
+          <div class="about-panel">
+            <img src="assets/images/gallery/barbearia-01.jpg" alt="Ferramentas de barbearia no espaço Leo Barbeiro" />
+            <div class="about-note">
+              <span>Desde o primeiro contato</span>
+              <strong>serviço com organização, segurança e qualidade.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-services" id="servicos">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Serviços</p>
+            <h2>Vitrine de serviços e preços.</h2>
+            <p>
+              Lista baseada na referência antiga de cortes e preços, mantendo apenas os serviços com
+              valor confirmado.
+            </p>
+          </div>
+
+          <div class="services-showcase" aria-label="Serviços e preços">
+            <div class="services-track" data-services-track>
+            <article class="service-card price-card">
+              <img src="assets/icons/clipper.svg" alt="" aria-hidden="true" />
+              <h3>Listra / risco / linha no cabelo</h3>
+              <p>Detalhe rápido para acabamento do corte.</p>
+              <strong class="service-price">1,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/razor.svg" alt="" aria-hidden="true" />
+              <h3>Risco na sobrancelha</h3>
+              <p>Detalhe de estilo na sobrancelha.</p>
+              <strong class="service-price">1,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/razor.svg" alt="" aria-hidden="true" />
+              <h3>Bigode</h3>
+              <p>Aparar, alinhar e limpar o acabamento do bigode.</p>
+              <strong class="service-price">2,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/clipper.svg" alt="" aria-hidden="true" />
+              <h3>Contorno do cabelo</h3>
+              <p>Limpeza do contorno para manter o corte alinhado.</p>
+              <strong class="service-price">5,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/scissors.svg" alt="" aria-hidden="true" />
+              <h3>Sobrancelhas / pestanas</h3>
+              <p>Acabamento e alinhamento da área dos olhos.</p>
+              <strong class="service-price">7,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/razor.svg" alt="" aria-hidden="true" />
+              <h3>Barba navalha</h3>
+              <p>Barba com acabamento preciso na navalha.</p>
+              <strong class="service-price">12,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/scissors.svg" alt="" aria-hidden="true" />
+              <h3>Corte simples</h3>
+              <p>Corte masculino essencial, limpo e bem finalizado.</p>
+              <strong class="service-price">15,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/razor.svg" alt="" aria-hidden="true" />
+              <h3>Barboterapia</h3>
+              <p>Cuidado de barba com foco em conforto e acabamento.</p>
+              <strong class="service-price">15,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/scissors.svg" alt="" aria-hidden="true" />
+              <h3>Corte degradê</h3>
+              <p>Degradê com transição limpa e acabamento definido.</p>
+              <strong class="service-price">18,00 €</strong>
+            </article>
+            <article class="service-card price-card">
+              <img src="assets/icons/scissors.svg" alt="" aria-hidden="true" />
+              <h3>Black Power</h3>
+              <p>Corte e modelagem para volume e formato.</p>
+              <strong class="service-price">18,00 €</strong>
+            </article>
+            <article class="service-card price-card featured-price">
+              <img src="assets/icons/clipper.svg" alt="" aria-hidden="true" />
+              <h3>Combo cabelo e barba</h3>
+              <p>Pacote completo para renovar corte e barba na mesma visita.</p>
+              <strong class="service-price">27,00 €</strong>
+            </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-differentials" aria-label="Diferenciais">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="eyebrow">Diferenciais</p>
+            <h2>O básico precisa ser impecável.</h2>
+          </div>
+
+          <div class="differentials-grid">
+            <div class="differential-item">
+              <span>01</span>
+              <strong>Atendimento organizado</strong>
+              <p>Contato simples, confirmação rápida e orientação direta pelo WhatsApp.</p>
+            </div>
+            <div class="differential-item">
+              <span>02</span>
+              <strong>Experiência brasileira</strong>
+              <p>Comunicação próxima para brasileiros em Portugal e clientes locais.</p>
+            </div>
+            <div class="differential-item">
+              <span>03</span>
+              <strong>Ambiente profissional</strong>
+              <p>Espaço preparado para corte, barba, acabamento e cuidado pessoal masculino.</p>
+            </div>
+            <div class="differential-item">
+              <span>04</span>
+              <strong>Atenção ao detalhe</strong>
+              <p>Finalização pensada para o visual funcionar depois que o cliente sai da cadeira.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-gallery" id="galeria">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Galeria</p>
+            <h2>Detalhes do espaço e do atendimento.</h2>
+            <p>Imagens extraídas do material antigo e tratadas para a nova direção visual do site.</p>
+          </div>
+
+          <div class="gallery-grid" data-gallery>
+            <button type="button" class="gallery-item tall" data-full="assets/images/gallery/barbearia-01.jpg">
+              <img src="assets/images/gallery/barbearia-01.jpg" alt="Ferramentas e espelho da barbearia" />
+            </button>
+            <button type="button" class="gallery-item" data-full="assets/images/gallery/barbearia-02.jpg">
+              <img src="assets/images/gallery/barbearia-02.jpg" alt="Leo Barbeiro realizando corte masculino" />
+            </button>
+            <button type="button" class="gallery-item" data-full="assets/images/gallery/barbearia-03.jpg">
+              <img src="assets/images/gallery/barbearia-03.jpg" alt="Atendimento de corte na cadeira da barbearia" />
+            </button>
+            <button type="button" class="gallery-item wide" data-full="assets/images/gallery/barbearia-04.jpg">
+              <img src="assets/images/gallery/barbearia-04.jpg" alt="Detalhe de corte com tesoura dourada" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-location" id="localizacao">
+        <div class="section-inner location-grid">
+          <div class="section-copy">
+            <p class="eyebrow">Localização</p>
+            <h2>No centro de Quarteira.</h2>
+            <p>
+              Avenida Francisco Sá Carneiro, Quarteira, Loulé, Algarve, Portugal.
+            </p>
+            <p class="postal-code">Código postal: 8125-124</p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.google.com/maps/search/?api=1&query=Avenida%20Francisco%20S%C3%A1%20Carneiro%2C%20Quarteira%2C%20Loul%C3%A9%2C%20Algarve%2C%20Portugal"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="assets/icons/map-pin.svg" alt="" aria-hidden="true" />
+              Ver no mapa
+            </a>
+          </div>
+
+          <div class="map-frame">
+            <iframe
+              title="Mapa da Barbearia Leo Barbeiro em Quarteira"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Avenida%20Francisco%20S%C3%A1%20Carneiro%2C%20Quarteira%2C%20Loul%C3%A9%2C%20Algarve%2C%20Portugal&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contato">
+        <div class="section-inner contact-grid">
+          <div>
+            <p class="eyebrow">Contato</p>
+            <h2>Fale direto com a barbearia.</h2>
+            <p>
+              Para saber disponibilidade, confirmar serviços ou solicitar horário, use o WhatsApp oficial.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <button class="btn btn-primary inactive-cta" type="button" aria-disabled="true">
+              <img src="assets/icons/whatsapp-dark.svg" alt="" aria-hidden="true" />
+              Chamar no WhatsApp
+            </button>
+            <a class="phone-link" href="tel:+351925622069">+351 925 622 069</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark">LB</span>
+            <span>
+              <strong>Leo Barbeiro</strong>
+              <small>Barbearia em Quarteira</small>
+            </span>
+          </a>
+        </div>
+        <div>
+          <strong>Endereço</strong>
+          <p>Avenida Francisco Sá Carneiro, Quarteira, Loulé, Algarve.</p>
+        </div>
+        <div>
+          <strong>Contato</strong>
+          <p><a href="tel:+351925622069">+351 925 622 069</a></p>
+        </div>
+        <div>
+          <strong>Navegação</strong>
+          <p><a href="#servicos">Serviços</a> · <a href="#galeria">Galeria</a> · <a href="#localizacao">Mapa</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> Leo Barbeiro. Todos os direitos reservados.</span>
+      </div>
+    </footer>
+
+    <dialog class="gallery-dialog" data-dialog>
+      <button class="dialog-close" type="button" aria-label="Fechar galeria" data-dialog-close></button>
+      <img src="" alt="" data-dialog-image />
+    </dialog>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
